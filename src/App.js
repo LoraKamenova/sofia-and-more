@@ -6,6 +6,7 @@ import {Route, Routes, Redirect} from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Sofia from './components/Sofia/Sofia';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/sofia" element={<Sofia/>}/>
       </Routes>
 
 

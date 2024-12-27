@@ -14,16 +14,19 @@ const Navbar = () => {
             <Link className='nav-link' to="/about">За блога</Link>
         </li>
         <li className='nav-item'>
-            <Link className='nav-link' to="/about">София</Link>
+            <Link className='nav-link' to="/sofia">София</Link>
         </li>
         <li className='nav-item'>
-            <Link className='nav-link' to="/about">България</Link>
+            <Link className='nav-link' to="/bulgaria">България</Link>
         </li>
         <li className='nav-item'>
-            <Link className='nav-link' to="/about">Поредици</Link>
+            <Link className='nav-link' to="/world">По света</Link>
         </li>
         <li className='nav-item'>
-            <Link className='nav-link' to="/about">Всички статии</Link>
+            <Link className='nav-link' to="/sequences">Поредици</Link>
+        </li>
+        <li className='nav-item'>
+            <Link className='nav-link' to="/all-posts">Всички статии</Link>
         </li>
     </ul>
 </nav>

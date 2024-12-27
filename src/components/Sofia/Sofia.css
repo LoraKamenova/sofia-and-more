@@ -1,0 +1,29 @@
+.main-card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* padding: 10px; */
+    /* width: 60%; */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 60%;
+    /* background-color: azure; */
+}
+
+.card-heading {
+    color:white;
+    font-family: cursive;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.card-text-wrapper {
+    padding: 10px; 
+}

@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "title": "Водната кула в Лозенец",
+    "category": "София",
+    "tags": ["кула", "лозенец"],
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1615655024/React%20Project/home_xcupse.jpg",
+    "content": "Lorem ipsum"
+  }, {
+    "id": 2,
+    "title": "Водната кула в Илиянци",
+    "category": "София",
+    "tags": ["кула", "Илиянци"],
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1615655024/React%20Project/home_xcupse.jpg",
+    "content": "Lorem ipsum"
+  }, {
+    "id": 3,
+    "title": "Водната кула в Люлин",
+    "category": "София",
+    "tags": ["кула", "Люлин"],
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1615655024/React%20Project/home_xcupse.jpg",
+    "content": "Lorem ipsum"
+  }, {
+    "id": 4,
+    "title": "Седемте Рилски езера",
+    "category": "България",
+    "tags": ["езера", "рила"],
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1615655024/React%20Project/home_xcupse.jpg",
+    "content": "Lorem ipsum"
+  }]
