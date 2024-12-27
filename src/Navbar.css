@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 15px;
+    list-style-type: none;
+}
+
+.nav-link {
+    font-family: "Oswald", serif; 
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: overline;
+    color: rgb(26, 133, 133);
+  }

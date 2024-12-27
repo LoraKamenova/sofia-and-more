@@ -1,0 +1,46 @@
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 85vh;
+    padding-right: 30px;
+}
+
+.left-section {
+    justify-content: right;
+}
+
+.right-section {
+    justify-content: left;
+}
+
+
+.heading {
+        font-family: "Tangerine", serif;
+        /* font-family:cursive; */
+        font-style:oblique;
+        font-weight: 100;
+        font-size: 160px;
+        color: white;
+}
+
+
+.image-container {
+    width: 420px;
+    height: 450px;
+    background-color: white;
+    padding: 20px 20px 80px 20px;
+    transform: rotate(-4deg);
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 380px;
+    height: 350px;
+}

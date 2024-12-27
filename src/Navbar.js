@@ -5,20 +5,24 @@ const Navbar = () => {
     return (
 
 <nav className="navbar">
-    <div className="navbar-center">
-        <li>
-            <a href="#">Начало</a>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">Начало</a>
         </li>
-        <li>
-            <a href="#">София</a>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">София</a>
         </li>
-        <li>
-            <a href="#">България</a>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">България</a>
         </li>
-        <li>
-            <a href="#">По света</a>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">По света</a>
         </li>
-    </div>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">Поредици</a>
+        </li>
+        <li className='nav-item'>
+            <a className='nav-link' href="#">Всички статии</a>
+        </li>
 </nav>
     )
 };
