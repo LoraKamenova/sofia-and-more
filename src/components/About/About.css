@@ -1,0 +1,18 @@
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+p {
+/* font-family: "Tangerine", serif; */
+    font-family:cursive;
+    font-style:oblique;
+    font-weight: 100;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    align-self: center;
+}
