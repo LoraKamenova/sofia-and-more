@@ -1,18 +1,43 @@
-.main-section {
+.post-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    color: white;
+    /* height: 90vh; */
 }
 
-p {
-/* font-family: "Tangerine", serif; */
-    font-family:cursive;
-    font-style:oblique;
-    font-weight: 100;
-    font-size: 100px;
-    color: white;
+
+.markdown {
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: whitesmoke;
+    padding: 50px;
+    color: black;
+    margin-top:20px;
+
+}
+
+.markdown h1 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.markdown p {
+    margin: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+img[alt="portrait"] {
+    max-width: 100%;
+    width: 400px;
+    height: 500px;
 }
