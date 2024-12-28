@@ -34,7 +34,7 @@
 
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
-import termsFrPath from '../../assets/posts/post.md'
+import termsFrPath from '../../assets/posts/1.md'
 import './About.css';
 
 
