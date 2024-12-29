@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: row;
-    height: 20vh;
+    height: 30vh;
     margin: 10px;
     border-top: 2px solid rgb(26, 133, 133);
     /* border-bottom: 2px solid rgb(26, 133, 133); */
@@ -38,7 +38,38 @@
     padding: 10px;
 }
 
+.card-content {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .card-title {
     font-family: cursive;
-    /* font-s?tyle: italic; */
+    margin-bottom: 5px;
+}
+
+.card-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+
+.fake-button {
+    outline: 2px solid rgb(26, 133, 133);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    display: flex;
+    align-self: flex-end;
+    width: 160px;
+    justify-content: center;
+}
+
+.fake-button:hover {
+    background-color: rgb(26, 133, 133);
+    color: whitesmoke;
 }

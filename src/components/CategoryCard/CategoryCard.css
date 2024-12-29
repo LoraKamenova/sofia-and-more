@@ -1,3 +1,9 @@
+.category-card-wrapper {
+    padding: 1px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
 .category-card {
     display: flex;
     flex-direction: column;
@@ -21,4 +27,9 @@
     /* border: 1px solid red; */
     padding: 10px 0px;
     backdrop-filter: blur(10px);
+}
+
+.category-card-title {
+    color: white;
+    font-weight: 400
 }

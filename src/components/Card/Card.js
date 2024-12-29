@@ -17,8 +17,11 @@ const PostCard = (props) => {
                 <div className="card-content-wrapper">
                     <h3 className="card-content">{props.content}</h3>
                 </div>
-
+                <div className="card-button-wrapper">
+                    <div className="fake-button">Прочети</div>
+                </div>
             </div>
+
         </article>
     );
 };

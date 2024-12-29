@@ -11,9 +11,6 @@ const Navbar = () => {
             <NavLink activeclassName="active" className='nav-link' to="/">Начало</NavLink>
         </li>
         <li className='nav-item'>
-            <NavLink activeclassName="active" className='nav-link' to="/about">За блога</NavLink>
-        </li>
-        <li className='nav-item'>
             <NavLink activeclassName="active" className='nav-link' to="/sofia">София</NavLink>
         </li>
         <li className='nav-item'>
@@ -27,6 +24,9 @@ const Navbar = () => {
         </li>
         <li className='nav-item'>
             <NavLink activeclassName="active" className='nav-link' to="/all">Всички статии</NavLink>
+        </li>
+        <li className='nav-item'>
+            <NavLink activeclassName="active" className='nav-link' to="/about">За блога</NavLink>
         </li>
     </ul>
 </nav>
