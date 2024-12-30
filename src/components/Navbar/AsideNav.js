@@ -14,7 +14,7 @@ const AsideNav = () => {
             <NavLink activeclassName="aside-active" className='aside-nav-link' to="/sofia/events">Събития</NavLink>
         </li>
         <li className='aside-nav-item'>
-            <NavLink activeclassName="aside-active" className='aside-nav-link' to="/sofia/findings">Находки</NavLink>
+            <NavLink activeclassName="aside-active" className='aside-nav-link' to="/sofia/finds">Находки</NavLink>
         </li>
         <li className='aside-nav-item'>
             <NavLink activeclassName="aside-active" className='aside-nav-link' to="/sofia/walks">Разходки</NavLink>
