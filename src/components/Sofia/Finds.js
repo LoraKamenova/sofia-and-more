@@ -13,7 +13,7 @@ class Finds extends Component {
         
         return (
             <section className='page-section'>
-                <AsideNav></AsideNav>
+                {/* <AsideNav></AsideNav> */}
                 <section className="main-category-card-section">
                     <h1 className='category-card-heading'>Hаходки</h1>
                     <section className='find-card-container'>

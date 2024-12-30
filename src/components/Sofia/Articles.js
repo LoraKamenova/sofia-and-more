@@ -14,7 +14,7 @@ class Articles extends Component {
     
         return (
             <section className='page-section'>
-                <AsideNav></AsideNav>
+                {/* <AsideNav></AsideNav> */}
                 <section className="main-category-card-section">
                     <h1 className='category-card-heading'>Статии</h1>
                     <section className='category-card-container'>
