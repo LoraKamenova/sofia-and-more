@@ -1,6 +1,6 @@
 import './Card.css'
 
-const PostCard = (props) => {
+const Card = (props) => {
     return (
         <article className="card">
 
@@ -26,4 +26,4 @@ const PostCard = (props) => {
     );
 };
 
-export default PostCard;
+export default Card;

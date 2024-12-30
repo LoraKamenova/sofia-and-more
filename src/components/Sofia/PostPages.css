@@ -1,13 +1,20 @@
-.main-category-card-section {
+.page-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .main-category-card-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
-}
-
-.category-card-container {
+    width: 100%;
+  }
+  
+  .category-card-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,12 +24,11 @@
     padding: 30px 50px;
     width: 80%;
     /* background-color: whitesmoke; */
-}
-
-.category-card-heading {
+  }
+  
+  .category-card-heading {
     color:whitesmoke;
     font-family: cursive;
     font-size: 30px;
     /* margin: 10px; */
-}
-
+  }  
