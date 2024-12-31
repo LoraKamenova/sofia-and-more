@@ -15,6 +15,7 @@
     caption-side: bottom;
     background-color: whitesmoke;
     padding: 0 15px 15px 15px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 img[src*="land_"] {

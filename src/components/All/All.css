@@ -7,6 +7,7 @@
     /* padding: 30px 50px; */
    padding: 10px;
     /* width: 60%; */
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .card-container {
@@ -22,9 +23,9 @@
 
 .card-heading {
     /* color:whitesmoke; */
-    font-family: cursive;
     font-size: 30px;
     margin: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .link {
