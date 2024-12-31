@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sofia-and-more/static/css/main.0b83a35e.css",
-    "main.js": "/sofia-and-more/static/js/main.5befa1f5.js",
+    "main.css": "/sofia-and-more/static/css/main.718dc05e.css",
+    "main.js": "/sofia-and-more/static/js/main.6af1f744.js",
     "static/js/304.4a587041.chunk.js": "/sofia-and-more/static/js/304.4a587041.chunk.js",
     "static/js/381.8193e409.chunk.js": "/sofia-and-more/static/js/381.8193e409.chunk.js",
     "static/js/606.dfa7d540.chunk.js": "/sofia-and-more/static/js/606.dfa7d540.chunk.js",
@@ -31,12 +31,12 @@
     "static/media/3.md": "/sofia-and-more/static/media/3.a0b8b8be1f34ddc43724.md",
     "static/media/2.md": "/sofia-and-more/static/media/2.eab6d00a8ad5d8e95d55.md",
     "index.html": "/sofia-and-more/index.html",
-    "main.0b83a35e.css.map": "/sofia-and-more/static/css/main.0b83a35e.css.map",
-    "main.5befa1f5.js.map": "/sofia-and-more/static/js/main.5befa1f5.js.map",
+    "main.718dc05e.css.map": "/sofia-and-more/static/css/main.718dc05e.css.map",
+    "main.6af1f744.js.map": "/sofia-and-more/static/js/main.6af1f744.js.map",
     "488.8e766ea1.chunk.js.map": "/sofia-and-more/static/js/488.8e766ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b83a35e.css",
-    "static/js/main.5befa1f5.js"
+    "static/css/main.718dc05e.css",
+    "static/js/main.6af1f744.js"
   ]
 }
