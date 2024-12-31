@@ -3,20 +3,18 @@ import { Component } from 'react';
 import '../Sofia/PostPages.css';
 import data from '../../assets/data.json';
 import CategoryCard from '../Card/CategoryCard'
-import AsideNav from '../Navbar/AsideNav';
 
-class Articles extends Component {
+class World extends Component {
 
     render() {
 
-        let searchedValue = "събитие";
-        let posts = data.reverse().filter(temp => temp.subcategory.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
+        let searchedValue = "по света";
+        let posts = data.reverse().filter(temp => temp.category.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
     
         return (
             <section className='page-section'>
-                {/* <AsideNav></AsideNav> */}
                 <section className="main-category-card-section">
-                    <h1 className='category-card-heading'>Събития</h1>
+                    {/* <h1 className='category-card-heading'>Статии</h1> */}
                     <section className='category-card-container'>
                     {posts.map((x) => (
                         <CategoryCard title={x.title}
@@ -31,4 +29,4 @@ class Articles extends Component {
         )
     }
 }
-export default Articles;
+export default World;

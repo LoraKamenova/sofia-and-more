@@ -9,7 +9,7 @@ class Finds extends Component {
 
     render() {
 
-        let finds = data.map(({_id, url, title, caption}) => ({_id, url, title, caption}));
+        let finds = data.reverse().map(({_id, url, title, caption}) => ({_id, url, title, caption}));
         
         return (
             <section className='page-section'>

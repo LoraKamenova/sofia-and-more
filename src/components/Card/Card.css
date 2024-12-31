@@ -59,7 +59,7 @@
 .fake-button {
     outline: 2px solid rgb(26, 133, 133);
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     border-radius: 7px;
     background-color: whitesmoke;
     margin-top: 5px;
@@ -72,4 +72,8 @@
 .fake-button:hover {
     background-color: rgb(26, 133, 133);
     color: whitesmoke;
+}
+
+.card-date {
+    font-style: italic;
 }

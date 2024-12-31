@@ -10,7 +10,7 @@ class Walks extends Component {
     render() {
 
         let searchedValue = "колекции";
-        let posts = data.filter(temp => temp.subcategory.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
+        let posts = data.reverse().filter(temp => temp.subcategory.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
     
         return (
             <section className='page-section'>

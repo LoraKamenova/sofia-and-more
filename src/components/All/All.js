@@ -11,7 +11,7 @@ class All extends Component {
 
         // let searchedValue = "София";
         // let posts = data.filter(temp => temp.category.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
-        let posts = data.map(({_id, title, url, content}) => ({_id, title, url, content}));
+        let posts = data.reverse().map(({_id, title, url, content, date}) => ({_id, title, url, content, date}));
     
         return (
             <section className="main-card-section">
@@ -22,6 +22,7 @@ class All extends Component {
                         <Card title={x.title}
                         content={x.content}
                         url={x.url}
+                        date={x.date}
                         />
                     </Link>
                      )

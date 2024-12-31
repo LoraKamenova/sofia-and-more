@@ -9,7 +9,9 @@ const Card = (props) => {
             </div>
 
             <div className="card-text-wrapper">
-
+                <div className="card-date-wrapper">
+                    <p className="card-date">{props.date}</p>
+                </div>
                 <div className="card-title-wrapper">
                     <h3 className="card-title">{props.title}</h3>
                 </div>
