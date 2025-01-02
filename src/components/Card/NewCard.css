@@ -1,0 +1,85 @@
+.new-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin:10px;
+    /* width: 80%; */
+    background-color: whitesmoke;
+    padding: 10px;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.new-card-image-wrapper {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.new-card-image {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.new-card-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: black;
+    padding: 10px;
+}
+
+.new-card-category {
+    color: rgb(26, 133, 133);
+    font-weight: bold;
+}
+
+.new-card-date {
+    font-style: italic;
+}
+
+.new-card-content {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.new-card-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.new-card-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    /* font-size: 24px; */
+}
+
+.new-fake-button {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new-fake-button:hover {
+    color: rgb(26, 133, 133);
+    font-weight: bold;
+    /* color: whitesmoke; */
+}
+
+.fa.fa-angle-double-right {
+    margin-left: 5px;
+    font-weight: bold;
+}

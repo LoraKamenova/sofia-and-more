@@ -8,7 +8,7 @@ class Bulgaria extends Component {
 
     render() {
 
-        let searchedValue = "българия";
+        let searchedValue = "България";
         let posts = data.reverse().filter(temp => temp.category.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
     
         return (

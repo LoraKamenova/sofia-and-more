@@ -6,6 +6,7 @@ import {Route, Routes, Redirect} from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import New from './components/New/New';
 import Articles from './components/Sofia/Articles';
 import Events from './components/Sofia/Events';
 import Finds from './components/Sofia/Finds';
@@ -22,7 +23,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/new" element={<About/>}/>
+        <Route path="/new" element={<New/>}/>
         <Route path="/sofia/articles" element={<Articles/>}/>
         <Route path="/sofia/events" element={<Events/>}/>
         <Route path="/sofia/finds" element={<Finds/>}/>
