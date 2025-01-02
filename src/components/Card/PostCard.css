@@ -1,17 +1,17 @@
-.category-card-wrapper {
+.post-card-wrapper {
+    margin: 5px;
     padding: 1px;
     background-color: whitesmoke;
-    margin: 5px;
 }
 
-.category-card {
+.post-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
     width: 250px;
     height: 350px;
+    margin: 10px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,20 +19,19 @@
     z-index: -1;
 }
 
-.category-card-title-wrapper {
-    width: 100%;
+.post-card-title-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
+    width: 100%;
     padding: 10px 0px;
     backdrop-filter: blur(10px);
     z-index: 0;
 }
 
-.category-card-title {
-    color: white;
-    font-weight: 400;
+.post-card-title {
     font-family: "Oswald", serif;
+    font-weight: 400;
+    color: white;
 }

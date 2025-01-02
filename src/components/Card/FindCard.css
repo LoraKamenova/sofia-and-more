@@ -1,9 +1,4 @@
 .find-card {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* border: 1px solid saddlebrown; */
     display: table;
     margin: 10px;
     padding: 10px;
@@ -12,10 +7,10 @@
 
 .find-caption {
     display: table-caption;
-    caption-side: bottom;
-    background-color: whitesmoke;
     padding: 0 15px 15px 15px;
+    caption-side: bottom;
     font-family: 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
 }
 
 img[src*="land_"] {
@@ -29,7 +24,3 @@ img[src*="port_"] {
     width: 400px;
     height: 500px;
 }
-
-/* .find-caption {
-    color: whitesmoke;
-} */

@@ -1,17 +1,16 @@
-.new-card {
+.all-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     height: 30vh;
     width: 100%;
-    margin:10px;
+    margin: 10px;
     padding: 10px;
     background-color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 2px solid rgb(26, 133, 133);
 }
 
-.new-card-image-wrapper {
+.all-card-image-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,62 +19,56 @@
     height: 100%;
 }
 
-.new-card-image {
+.all-card-image {
     width: auto;
     height: auto;
     min-width: 100%;
     min-height: 100%;
 }
 
-.new-card-content-wrapper {
+.all-card-content-wrapper {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding: 10px;
     color: black;
-    font-family: 'Trebuchet MS', sans-serif;
 }
 
-.new-card-category {
-    font-weight: bold;
-    color: rgb(26, 133, 133);
-}
-
-.new-card-date {
+.all-card-date {
     font-style: italic;
 }
 
-.new-card-text {
-    font-weight: 300;
-    font-size: 15px;
-}
-
-.new-card-title {
+.all-card-title {
+    font-family: 'Trebuchet MS', sans-serif;
     margin-bottom: 5px;
 }
 
-.new-card-button-wrapper {
+.all-card-text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.all-card-button-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 5px;
 }
 
-.new-card-fake-button {
+.all-card-fake-button {
     display: flex;
     align-self: flex-end;
     justify-content: center;
-    align-items: center;
+    width: 160px;
+    margin-top: 5px;
+    padding: 10px;
     text-decoration: none;
-    font-weight: bold;
+    outline: 2px solid rgb(26, 133, 133);
+    border-radius: 7px;
+    background-color: whitesmoke;
 }
 
-.new-card-fake-button:hover {
-    color: rgb(26, 133, 133);
-    font-weight: bold;
-}
-
-.fa.fa-angle-double-right {
-    margin-left: 5px;
-    font-weight: bold;
+.all-card-fake-button:hover {
+    background-color: rgb(26, 133, 133);
+    color: whitesmoke;
 }

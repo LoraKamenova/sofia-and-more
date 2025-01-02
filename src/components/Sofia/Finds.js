@@ -1,9 +1,7 @@
-import React from 'react';
-import { Component } from 'react';
-import '../Sofia/PostPages.css';
-import data from '../../assets/data2.json';
-import AsideNav from '../Navbar/AsideNav';
+import { React, Component } from 'react';
 import FindCard from '../Card/FindCard';
+import data from '../../assets/data_finds.json';
+import '../Sofia/PostPages.css';
 
 class Finds extends Component {
 
@@ -12,19 +10,18 @@ class Finds extends Component {
         let finds = data.reverse().map(({_id, url, title, caption}) => ({_id, url, title, caption}));
         
         return (
-            <section className='page-section'>
-                {/* <AsideNav></AsideNav> */}
-                <section className="main-category-card-section">
-                    <h1 className='category-card-heading'>Hаходки</h1>
-                    <section className='find-card-container'>
-                    {finds.map((x) => (
-                        <FindCard title={x.title}
-                        caption={x.caption}
-                        url={x.url}
-                        />
-                        )
-                    )}
-                    </section>
+            <section className='category-page-section'>
+                <section className="category-cards-section">
+                    <h1 className='category-cards-heading'>Hаходки</h1>
+                    <div className='find-cards-container'>
+                        {finds.map((x) => (
+                            <FindCard title={x.title}
+                            caption={x.caption}
+                            url={x.url}
+                            />
+                            )
+                        )}
+                    </div>
                 </section>
             </section>
         )

@@ -1,11 +1,9 @@
-import React from 'react';
-import { Component } from 'react';
-import '../Sofia/PostPages.css';
+import { React, Component } from 'react';
+import PostCard from '../Card/PostCard';
 import data from '../../assets/data.json';
-import CategoryCard from '../Card/CategoryCard'
-import AsideNav from '../Navbar/AsideNav';
+import '../Sofia/PostPages.css';
 
-class Walks extends Component {
+class Collections extends Component {
 
     render() {
 
@@ -13,22 +11,21 @@ class Walks extends Component {
         let posts = data.reverse().filter(temp => temp.subcategory.includes(searchedValue)).map(({id, title, url, content}) => ({id, title, url, content}));
     
         return (
-            <section className='page-section'>
-                {/* <AsideNav></AsideNav> */}
-                <section className="main-category-card-section">
-                    <h1 className='category-card-heading'>Колекции</h1>
-                    <section className='category-card-container'>
-                    {posts.map((x) => (
-                        <CategoryCard title={x.title}
-                        content={x.content}
-                        url={x.url}
-                        />
-                        )
-                    )}
-                    </section>
+            <section className='category-page-section'>
+                <section className="category-cards-section">
+                    <h1 className='category-cards-heading'>Колекции</h1>
+                    <div className='category-cards-container'>
+                        {posts.map((x) => (
+                            <PostCard title={x.title}
+                            content={x.content}
+                            url={x.url}
+                            />
+                            )
+                        )}
+                    </div>
                 </section>
             </section>
         )
     }
 }
-export default Walks;
+export default Collections;

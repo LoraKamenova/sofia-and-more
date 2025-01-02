@@ -3,12 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    /* height: 90vh; */
     padding: 10px;
     font-family: 'Trebuchet MS', sans-serif;
+    color: white;
 }
-
 
 .markdown {
     display: flex;
@@ -16,11 +14,10 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: whitesmoke;
-    padding: 50px;
-    color: black;
     margin-top:20px;
-
+    padding: 50px;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .markdown h1 {
@@ -32,20 +29,20 @@
     margin: 5px;
 }
 
-img {
+.markdown img {
     max-width: 100%;
     height: auto;
     overflow: hidden;
 }
 
 img[alt="portrait"] {
-    max-width: 100%;
     width: 400px;
     height: 500px;
+    max-width: 100%;
 }
 
 img[alt="long"] {
-    max-width: 100%;
     width: 400px;
     height: 600px;
+    max-width: 100%;
 }

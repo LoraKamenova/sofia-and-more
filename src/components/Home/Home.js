@@ -1,15 +1,11 @@
-import React from 'react';
-import { Component } from 'react';
+import { React, Component } from 'react';
 import './Home.css';
 
 class Home extends Component {
-    // constructor (props) {
-    //     super(props)
-    // }
+
     render() {
 
         function RandomImage() {
-
             let arr = [
                 "1.jpg", 
                 "2.jpg", 
@@ -31,23 +27,20 @@ class Home extends Component {
             let path = arr[num];
            return path;
         }
-        
-        let imagePath = RandomImage();
     
         return (
-            <section className="main-section">
-                    <section className='left-section sections'>
-                        <div className="image-container">
-                        {/* <img className="image" src={require("../../assets/images/1.jpg")} alt=""/> */}
-                            <img className="image" src={require("../../assets/images/" + RandomImage())} alt=""/>
-                        <div className='greeting-wrapper'>
-                            <p className='greeting'>Поздрав от София</p>
+            <section className="main-home-section">
+                 <section className='left-home-section home-sections'>
+                    <div className="home-image-container">
+                        <img className="home-image" src={require("../../assets/images/" + RandomImage())} alt=""/>
+                        <div className='home-greeting-wrapper'>
+                            <p className='home-greeting'>Поздрав от София</p>
                         </div>
-                        </div>
-                    </section>
-                    <section className='right-section sections'>
-                        <h1 className="heading">Sofia & more</h1>
-                    </section>
+                    </div>
+                </section>
+                <section className='right-home-section home-sections'>
+                    <h1 className="home-heading">Sofia & more</h1>
+                </section>
             </section>
         )
     }

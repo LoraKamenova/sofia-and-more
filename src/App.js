@@ -1,11 +1,8 @@
-import './App.css';
-
 import React from 'react';
-import {Route, Routes, Redirect} from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
-import About from './components/About/About';
 import New from './components/New/New';
 import Articles from './components/Sofia/Articles';
 import Events from './components/Sofia/Events';
@@ -16,6 +13,9 @@ import Bulgaria from './components/Bulgaria/Bulgaria';
 import World from './components/World/World';
 import All from './components/All/All';
 import PostWrapper from './components/Post/PostWrapper';
+import About from './components/About/About';
+
+import './App.css';
 
 function App() {
   return (
@@ -34,10 +34,7 @@ function App() {
         <Route path="/all" element={<All/>}/>
         <Route path="/all/:id" element={<PostWrapper/>}/>
         <Route path="/about" element={<About/>}/>
-
       </Routes>
-
-
     </div>
   );
 }

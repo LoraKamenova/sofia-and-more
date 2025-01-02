@@ -1,28 +1,25 @@
 import React from 'react';
+import { Link, NavLink } from "react-router-dom";
 import './Navbar.css';
-import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
     return (
 
 <nav className="navbar">
-
     <div className='nav-list-container'>
         <ul className='nav-list'>
-            <div className='logo-container'>
-                <div className='logo'>Sofia & more</div>
-            </div>
+            <Link className='logo-link' to={`/`}>
+                <div className='logo-container'>
+                    <div className='logo'>Sofia & more</div>
+                </div>
+            </Link>
             <li className='nav-item'>
                 <NavLink activeclassName="active" className='nav-link' to="/">Начало</NavLink>
             </li>
             <li className='nav-item'>
                 <NavLink activeclassName="active" className='nav-link' to="/new">Ново</NavLink>
             </li>
-            {/* <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/sofia/articles">София</NavLink>
-            </li> */}
             <li className='nav-item dropdown'>София<i className='fa fa-caret-down'></i>
-                {/* <div className='nav-item dropbtn'>София<i className='fa fa-caret-down'></i></div> */}
                 <div className='dropdown-content'>
                     <NavLink activeclassName="active" className='nav-link drop' to="/sofia/articles"><div className='div-list-item'>Статии</div></NavLink>
                     <NavLink activeclassName="active" className='nav-link drop' to="/sofia/events"><div className='div-list-item'>Събития</div></NavLink>
@@ -37,9 +34,6 @@ const Navbar = () => {
             <li className='nav-item'>
                 <NavLink activeclassName="active" className='nav-link' to="/world">По света</NavLink>
             </li>
-        {/* <li className='nav-item'>
-            <NavLink activeclassName="active" className='nav-link' to="/sequences">Поредици</NavLink>
-        </li> */}
             <li className='nav-item'>
                 <NavLink activeclassName="active" className='nav-link' to="/all">Всички статии</NavLink>
             </li>

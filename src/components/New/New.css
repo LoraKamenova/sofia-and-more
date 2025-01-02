@@ -4,49 +4,101 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-    /* border: 1px solid red; */
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
-.new-cards-container{
+.new-cards-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
     width: 60%;
     margin: 5px;
     padding: 50px;
-    /* border: 1px solid red; */
+    background-color: whitesmoke;
 }
 
+.new-card-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.new-card-heading {
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(26, 133, 133);
+}
+
+.new-link {
+    text-decoration: none;
+    width: 100%;
+}
+
+/* ------------------- */
 .recommended-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: flex-start;
-    background-color: whitesmoke;
     width: 30%;
-    /* border: 1px solid red; */
     margin: 5px 10px;
     padding: 50px 40px;
+    background-color: whitesmoke;
 }
 
-.new-card-heading, .new-recommended-heading {
+.new-recommended-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.new-recommended-card-image {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.new-recommended-heading {
     color: rgb(26, 133, 133);
     padding: 5px;
     font-size: 20px;
 }
 
-.new-recommended-heading-wrapper, .new-cards-container-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-
+.new-recommended-category {
+    font-weight: bold;
+    color: rgb(26, 133, 133);
 }
 
-.new-recommended-fake-button {
+.new-recommended-date {
+    font-style: italic;
+}
+
+.new-recommended-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.new-recommended-text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.recommended-link {
+    text-decoration: none;
+    color: black;
+}
+
+.new-recommended-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.new-recommended-button {
     display: flex;
     align-self: flex-end;
     justify-content: center;
@@ -55,40 +107,7 @@
     font-weight: bold;
 }
 
-.new-recommended-fake-button:hover {
-    color: rgb(26, 133, 133);
+.new-recommended-button:hover {
     font-weight: bold;
-    /* color: whitesmoke; */
-}
-
-.new-recommended-title {
-    font-family: 'Trebuchet MS', sans-serif;
-    margin-bottom: 5px;
-}
-
-.new-recommended-date {
-    font-style: italic;
-}
-
-.new-recommended-category {
     color: rgb(26, 133, 133);
-    font-weight: bold;
-}
-
-.new-recommended-content {
-    font-size: 15px;
-    font-weight: 300;
-    font-family: 'Trebuchet MS', sans-serif;
-}
-
-.new-recommended-button-wrapper {
-    display: flex;
-    flex-direction: row;
-    /* align-self: flex-end; */
-    justify-content: flex-end;
-}
-
-.rec-link {
-    text-decoration: none;
-    color: black;
 }

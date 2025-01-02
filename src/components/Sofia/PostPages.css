@@ -1,46 +1,41 @@
-.page-section {
+.category-page-section {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
   
-  .main-category-card-section {
+  .category-cards-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     margin: 0 10px;
     padding: 10px;
-    width: 100%;
   }
   
-  .category-card-container {
+  .category-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 1px solid blue; */
-    padding: 30px 50px;
     width: 80%;
-    /* background-color: whitesmoke; */
+    padding: 30px 50px;
   }
   
-  .category-card-heading {
-    color:whitesmoke;
+  .category-cards-heading {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    /* margin: 10px; */
+    color:whitesmoke;
   }  
 
-  .find-card-container {
+  .find-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 1px solid blue; */
-    padding: 30px 50px;
     width: 90%;
-    /* background-color: whitesmoke; */
+    padding: 30px 50px;
   }
