@@ -8,7 +8,8 @@ class All extends Component {
 
     render() {
 
-        let posts = data.reverse().map(({_id, title, url, content, date}) => ({_id, title, url, content, date}));
+        let reversedData = data.reverse();
+        let posts = reversedData.map(({_id, title, url, content, date}) => ({_id, title, url, content, date}));
     
         return (
             <section className="all-cards-section">
