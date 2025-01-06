@@ -14,7 +14,8 @@ class New extends Component {
         let rec_Title = "Водната кула в Лозенец";
         let rec_Date = "01/01/2010";
 
-        let latestPosts = data.reverse().slice(-5);
+        let reversedData = data.reverse();
+        let latestPosts = reversedData.slice(-5);
         let posts = latestPosts.map(({_id, title, url, content, date, category}) => ({_id, title, url, content, date, category}));
     
         return (
