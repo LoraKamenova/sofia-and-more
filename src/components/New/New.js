@@ -8,10 +8,10 @@ class New extends Component {
 
     render() {
 
-        let rec_Url = "https://res.cloudinary.com/dyhmxus4n/image/upload/v1735389087/1/1-1_gowii1.jpg";
+        let rec_Url = "https://res.cloudinary.com/dyhmxus4n/image/upload/v1736170116/1/4-1_nlaqjg.jpg";
         let rec_Category = "София";
-        let rec_Content = "В софийския квартал Лозенец има една кула, която сякаш е излязла от приказките. Многократно я бях виждала на снимки и всеки път видът й ме очароваше.";
-        let rec_Title = "Водната кула в Лозенец";
+        let rec_Content = "Така и не отидох до София Ленд докато все още беше отворен. Неочакван шанс да посетя някогашния увеселителен парк ми предостави едно изложение";
+        let rec_Title = "Разходка из някогашния София Ленд";
         let rec_Date = "01/01/2010";
 
         let reversedData = data.reverse();
