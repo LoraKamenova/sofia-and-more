@@ -1,6 +1,6 @@
 import { React, Component } from 'react';
 import { Link } from "react-router-dom";
-import PostCard from '../Card/PostCard';
+import ArticleCardPortrait from '../Card/ArticleCardPortrait';
 import data from '../../assets/data.json';
 import '../Sofia/PostPages.css';
 
@@ -19,7 +19,7 @@ class Articles extends Component {
                     <div className='category-cards-container'>
                         {posts.map((x) => (
                             <Link className='sofia-link' key={x._id} {...x} to={`/all/${x._id}`}>
-                                <PostCard title={x.title}
+                                <ArticleCardPortrait title={x.title}
                                 content={x.content}
                                 url={x.url}
                                 />

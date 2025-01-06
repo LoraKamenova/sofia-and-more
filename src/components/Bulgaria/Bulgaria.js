@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import PostCard from '../Card/PostCard';
+import ArticleCardPortrait from '../Card/ArticleCardPortrait';
 import data from '../../assets/data.json';
 import '../Sofia/PostPages.css';
 
@@ -15,7 +15,7 @@ class Bulgaria extends Component {
                 <section className="category-cards-section">
                     <div className='category-cards-container'>
                     {posts.map((x) => (
-                        <PostCard title={x.title}
+                        <ArticleCardPortrait title={x.title}
                         content={x.content}
                         url={x.url}
                         />
