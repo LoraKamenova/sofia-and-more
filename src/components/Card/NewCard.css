@@ -1,9 +1,7 @@
 .new-card {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
-    /* height: 30vh; */
     width: 100%;
     margin:10px;
     padding: 10px;
@@ -16,7 +14,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* width: 20%; */
     height: 100%;
 }
 
@@ -30,7 +27,6 @@
 .new-card-content-wrapper {
     display: flex;
     flex-direction: column;
-    width: 80%;
     padding: 10px;
     color: black;
     font-family: 'Trebuchet MS', sans-serif;
@@ -90,11 +86,25 @@
     .new-card-image-wrapper {
         width: 20%;
     }
+
+    .new-card-content-wrapper {
+        width: 80%;
+    }
 }
 
 /* Medium devices such as tablets (1024px or lesser) */
 @media only screen and (max-width: 1024px) {
+    .new-card {
+        flex-direction: column;
+    }
 
+    .new-card-image-wrapper {
+        width: 100%;
+    }
+
+    .new-card-content-wrapper {
+        width: 100%;
+    }
 }
 
 /* Small devices such as phones (768px or lesser) */
@@ -104,6 +114,10 @@
     }
 
     .new-card-image-wrapper {
+        width: 100%;
+    }
+
+    .new-card-content-wrapper {
         width: 100%;
     }
 }

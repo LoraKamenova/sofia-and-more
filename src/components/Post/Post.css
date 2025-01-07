@@ -13,9 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 60%; */
     margin-top:20px;
-    /* padding: 50px; */
     background-color: whitesmoke;
     color: black;
 }
@@ -37,14 +35,10 @@
 }
 
 img[alt="portrait"] {
-    /* width: 400px;
-    height: 500px; */
     max-width: 100%;
 }
 
 img[alt="long"] {
-    /* width: 400px;
-    height: 600px; */
     max-width: 100%;
 }
 
@@ -69,7 +63,20 @@ img[alt="long"] {
 
 /* Medium devices such as tablets (1024px or lesser) */
 @media only screen and (max-width: 1024px) {
+    .markdown {
+        width: 100%;
+        padding: 30px;
+    }
 
+    img[alt="portrait"] {
+        width: 300px;
+        height: 350px;
+    }
+    
+    img[alt="long"] {
+        width: 300px;
+        height: 400px;
+    }
 }
 
 /* Small devices such as phones (768px or lesser) */

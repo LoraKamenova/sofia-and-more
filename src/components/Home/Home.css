@@ -74,17 +74,21 @@
 
 /* Medium devices such as tablets (1024px or lesser) */
 @media only screen and (max-width: 1024px) {
+    .main-home-section {
+        height: 60vh;
+    }
+
     .home-heading {
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .home-image-container {
-        width: 400px;
-        height: 250px;
+        width: 350px;
+        height: 200px;
     }
 
     .home-greeting {
-        font-size: 35px;
+        font-size: 30px;
     }
 
 }
