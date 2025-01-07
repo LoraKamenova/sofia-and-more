@@ -1,31 +1,25 @@
 .main-home-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-sections {
     display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 85vh;
-    padding-right: 30px;
-}
-
-.left-home-section {
-    justify-content: right;
-    width: 55%;
-}
-
-.right-home-section {
-    justify-content: left;
-    width: 45%;
+    padding-top: 20px;
 }
 
 .home-heading {
+    justify-content: center;
     font-family: "Tangerine", serif;
     font-style:oblique;
     font-weight: 100;
-    font-size: 140px;
+    font-size: 120px;
     color: white;
 }
 
@@ -34,8 +28,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 550px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     padding: 20px;
     transform: rotate(-4deg);
     position: relative;
@@ -60,4 +54,35 @@
     font-size: 40px;
     color: whitesmoke;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+/* Large devices such as laptops, computers (greater than 1024px) */
+@media only screen and (min-width: 1024px) {
+    .home-heading {
+        font-size: 120px;
+    }
+
+    .home-image-container {
+        width: 450px;
+        height: 300px;
+    }
+
+}
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {
+
+    .home-heading {
+        font-size: 60px;
+    }
+
+    .home-image-container {
+        width: 350px;
+        height: 200px;
+    }
 }

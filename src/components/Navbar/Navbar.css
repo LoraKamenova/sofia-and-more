@@ -43,6 +43,7 @@
 .nav-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   border-bottom: 2px solid rgb(26, 133, 133);
 }
@@ -92,3 +93,19 @@
     margin-left: 10px;
     font-size: 20px;
   }
+
+
+  /* Large devices such as laptops, computers (greater than 1024px) */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {
+
+}

@@ -30,16 +30,16 @@ class Home extends Component {
     
         return (
             <section className="main-home-section">
-                 <section className='left-home-section home-sections'>
+                <section className='home-sections'>
+                    <h1 className="home-heading">Sofia & more</h1>
+                </section>
+                 <section className='home-sections'>
                     <div className="home-image-container">
                         <img className="home-image" src={require("../../assets/images/" + RandomImage())} alt=""/>
                         <div className='home-greeting-wrapper'>
                             <p className='home-greeting'>Поздрав от София</p>
                         </div>
                     </div>
-                </section>
-                <section className='right-home-section home-sections'>
-                    <h1 className="home-heading">Sofia & more</h1>
                 </section>
             </section>
         )
