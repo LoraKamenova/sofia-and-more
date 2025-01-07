@@ -1,6 +1,6 @@
 .new-main-section {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -12,9 +12,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    /* width: 60%; */
     margin: 5px;
-    padding: 50px;
+    /* padding: 50px; */
     background-color: whitesmoke;
 }
 
@@ -36,14 +36,14 @@
     width: 100%;
 }
 
-/* ------------------- */
+/* ----------------------------------------------------------------------------- */
 .recommended-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: flex-start;
-    width: 30%;
+    /* width: 30%; */
     margin: 5px 10px;
     padding: 50px 40px;
     background-color: whitesmoke;
@@ -110,4 +110,41 @@
 .new-recommended-button:hover {
     font-weight: bold;
     color: rgb(26, 133, 133);
+}
+
+/* Large devices such as laptops, computers (greater than 1024px) */
+@media only screen and (min-width: 1024px) {
+    .new-main-section {
+        flex-direction: row;
+    }
+
+    .new-cards-container {
+        width: 60%;
+        padding: 50px;
+    }
+
+    .recommended-section{
+        width: 30%;
+    }
+}
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {
+    .new-main-section {
+        flex-direction: column;
+    }
+
+    .new-cards-container {
+        width: 95%;
+        padding: 40px;
+    }
+
+    .recommended-section{
+        width: 95%;
+    }
 }

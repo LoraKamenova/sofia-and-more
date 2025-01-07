@@ -67,15 +67,33 @@
         height: 300px;
     }
 
+    .home-greeting {
+        font-size: 40px;
+    }
 }
 
 /* Medium devices such as tablets (1024px or lesser) */
 @media only screen and (max-width: 1024px) {
+    .home-heading {
+        font-size: 100px;
+    }
+
+    .home-image-container {
+        width: 400px;
+        height: 250px;
+    }
+
+    .home-greeting {
+        font-size: 35px;
+    }
 
 }
 
 /* Small devices such as phones (768px or lesser) */
 @media only screen and (max-width: 768px) {
+    .main-home-section {
+        height: 60vh;
+    }
 
     .home-heading {
         font-size: 60px;
@@ -84,5 +102,9 @@
     .home-image-container {
         width: 350px;
         height: 200px;
+    }
+
+    .home-greeting {
+        font-size: 30px;
     }
 }

@@ -1,8 +1,7 @@
 .all-card {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    height: 30vh;
+    /* align-items: center; */
     width: 100%;
     margin: 10px;
     padding: 10px;
@@ -30,7 +29,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding: 10px;
+    /* padding: 10px; */
     color: black;
 }
 
@@ -71,4 +70,52 @@
 .all-card-fake-button:hover {
     background-color: rgb(26, 133, 133);
     color: whitesmoke;
+}
+
+/* Large devices such as laptops, computers (greater than 1024px) */
+@media only screen and (min-width: 1024px) {
+    .all-card {
+        flex-direction: row;
+        height: 30vh;
+    }
+
+    .all-card-image-wrapper {
+        width: 20%;
+    }
+
+    .all-card-content-wrapper {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {
+    .all-card {
+        flex-direction: column;
+    }
+
+    .all-card-image-wrapper {
+        width: 100%;
+    }
+
+    .all-card-content-wrapper {
+        width: 100%;
+    }
+}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {
+    .all-card {
+        flex-direction: column;
+    }
+
+    .all-card-image-wrapper {
+        width: 100%;
+    }
+
+    .all-card-content-wrapper {
+        width: 100%;
+        padding: 10px 0;
+    }
 }

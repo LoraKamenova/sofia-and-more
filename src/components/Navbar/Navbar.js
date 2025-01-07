@@ -14,10 +14,10 @@ const Navbar = () => {
                 </div>
             </Link>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/">Начало</NavLink>
+                <NavLink className='nav-link' to="/">Начало</NavLink>
             </li>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/new">Ново</NavLink>
+                <NavLink className='nav-link' to="/new">Ново</NavLink>
             </li>
             <li className='nav-item dropdown'>София<i className='fa fa-caret-down'></i>
                 <div className='dropdown-content'>
@@ -29,16 +29,16 @@ const Navbar = () => {
                 </div>
             </li>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/bulgaria">България</NavLink>
+                <NavLink className='nav-link' to="/bulgaria">България</NavLink>
             </li>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/world">По света</NavLink>
+                <NavLink className='nav-link' to="/world">По света</NavLink>
             </li>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/all">Всички статии</NavLink>
+                <NavLink className='nav-link' to="/all">Всички статии</NavLink>
             </li>
             <li className='nav-item'>
-                <NavLink activeclassName="active" className='nav-link' to="/about">За блога</NavLink>
+                <NavLink className='nav-link' to="/about">За блога</NavLink>
             </li>
         </ul>
     </div>
