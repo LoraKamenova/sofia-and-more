@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/sofia-and-more/static/css/main.e92e8821.css",
-    "main.js": "/sofia-and-more/static/js/main.367b9afc.js",
+    "main.css": "/sofia-and-more/static/css/main.2bd74ab1.css",
+    "main.js": "/sofia-and-more/static/js/main.3f6349ae.js",
     "static/js/488.8e766ea1.chunk.js": "/sofia-and-more/static/js/488.8e766ea1.chunk.js",
     "static/js/304.4a587041.chunk.js": "/sofia-and-more/static/js/304.4a587041.chunk.js",
     "static/js/381.8193e409.chunk.js": "/sofia-and-more/static/js/381.8193e409.chunk.js",
     "static/js/606.dfa7d540.chunk.js": "/sofia-and-more/static/js/606.dfa7d540.chunk.js",
     "static/js/899.93643c62.chunk.js": "/sofia-and-more/static/js/899.93643c62.chunk.js",
     "static/js/956.ffa65783.chunk.js": "/sofia-and-more/static/js/956.ffa65783.chunk.js",
+    "static/js/713.85aa51aa.chunk.js": "/sofia-and-more/static/js/713.85aa51aa.chunk.js",
+    "static/js/98.63b442ab.chunk.js": "/sofia-and-more/static/js/98.63b442ab.chunk.js",
+    "static/js/551.13822cd6.chunk.js": "/sofia-and-more/static/js/551.13822cd6.chunk.js",
     "static/media/background.jpg": "/sofia-and-more/static/media/background.ca9ce8fcfed771c5bed1.jpg",
     "static/media/Pacifico-Regular.ttf": "/sofia-and-more/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/6.jpg": "/sofia-and-more/static/media/6.1c7a32f20536c63007e7.jpg",
@@ -31,16 +34,19 @@
     "static/media/background1.jpg": "/sofia-and-more/static/media/background1.d4e190fe2cf3a57f6743.jpg",
     "static/media/1.md": "/sofia-and-more/static/media/1.39b824e45e5ec0efe853.md",
     "static/media/4.md": "/sofia-and-more/static/media/4.49d6ab0c65def027705b.md",
+    "static/media/7.md": "/sofia-and-more/static/media/7.472ec69180eada65887d.md",
     "static/media/3.md": "/sofia-and-more/static/media/3.a0b8b8be1f34ddc43724.md",
+    "static/media/8.md": "/sofia-and-more/static/media/8.cede65e0818e58d7be17.md",
+    "static/media/6.md": "/sofia-and-more/static/media/6.b47ed3d6b2093fd45187.md",
     "static/media/5.md": "/sofia-and-more/static/media/5.11e3d61b7fddddaecfb3.md",
     "static/media/2.md": "/sofia-and-more/static/media/2.eab6d00a8ad5d8e95d55.md",
     "index.html": "/sofia-and-more/index.html",
-    "main.e92e8821.css.map": "/sofia-and-more/static/css/main.e92e8821.css.map",
-    "main.367b9afc.js.map": "/sofia-and-more/static/js/main.367b9afc.js.map",
+    "main.2bd74ab1.css.map": "/sofia-and-more/static/css/main.2bd74ab1.css.map",
+    "main.3f6349ae.js.map": "/sofia-and-more/static/js/main.3f6349ae.js.map",
     "488.8e766ea1.chunk.js.map": "/sofia-and-more/static/js/488.8e766ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e92e8821.css",
-    "static/js/main.367b9afc.js"
+    "static/css/main.2bd74ab1.css",
+    "static/js/main.3f6349ae.js"
   ]
 }
