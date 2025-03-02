@@ -15,14 +15,14 @@ class New extends Component {
         let rec_Date = "01/01/2010";
 
         let reversedData = data.reverse();
-        let latestPosts = reversedData.slice(-5);
+        let latestPosts = reversedData.slice(-3);
         let posts = latestPosts.map(({_id, title, url, content, date, category}) => ({_id, title, url, content, date, category}));
     
         return (
             <section className="new-main-section">
                 <div className='new-cards-container'>
                     <div className='new-card-heading-wrapper'>
-                        <h1 className='new-card-heading'>Нови статии</h1>
+                        <h1 className='new-card-heading'>Последни статии</h1>
                     </div>
                     {posts.map((x) => (
                         <Link className='new-link' key={x._id} {...x} to={`/all/${x._id}`}>
