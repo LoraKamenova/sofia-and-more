@@ -8,11 +8,7 @@ class New extends Component {
 
     render() {
 
-        let rec_Url = "https://res.cloudinary.com/dyhmxus4n/image/upload/v1736170116/1/4-1_nlaqjg.jpg";
-        let rec_Category = "София";
-        let rec_Content = "Така и не отидох до София Ленд докато все още беше отворен. Неочакван шанс да посетя някогашния увеселителен парк ми предостави едно изложение";
-        let rec_Title = "Разходка из някогашния София Ленд";
-        let rec_Date = "01/01/2010";
+        let recommendedPosts = data.filter(temp => temp.recommended.includes("yes")).map(({_id, title, url, content, date, category}) => ({_id, title, url, content, date, category}));
 
         let reversedData = data.reverse();
         let latestPosts = reversedData.slice(-3);
@@ -27,7 +23,7 @@ class New extends Component {
                     {posts.map((x) => (
                         <Link className='new-link' key={x._id} {...x} to={`/all/${x._id}`}>
                             <NewCard title={x.title}
-                                content={x.content}
+                                content={x.content.substring(0, 200) + "..."}
                                 url={x.url}
                                 date={x.date}
                                 category={x.category}
@@ -42,20 +38,20 @@ class New extends Component {
                         <h1 className='new-recommended-heading'>Препоръчано</h1>
                     </div>
                     <div className="new-recommended-image-wrapper">
-                        <img className="new-recommended-card-image" src={rec_Url} alt=""/>
+                        <img className="new-recommended-card-image" src={recommendedPosts[0].url} alt=""/>
                     </div>
                     <div className='new-recommended-content-wrapper'>
                         <div className="new-recommended-category-wrapper">
-                            <p className="new-recommended-category">{rec_Category}</p>
+                            <p className="new-recommended-category">{recommendedPosts[0].category}</p>
                         </div>
                         <div className="new-recommended-date-wrapper">
-                            <p className="new-recommended-date">{rec_Date}</p>
+                            <p className="new-recommended-date">{recommendedPosts[0].date}</p>
                         </div>
                         <div className="new-recommended-title-wrapper">
-                            <h3 className="new-recommended-title">{rec_Title}</h3>
+                            <h3 className="new-recommended-title">{recommendedPosts[0].title}</h3>
                         </div>
                         <div className="new-recommended-text-wrapper">
-                            <h3 className="new-recommended-text">{rec_Content}</h3>
+                            <h3 className="new-recommended-text">{recommendedPosts[0].content.substring(0, 200) + "..."}</h3>
                         </div>
                         <Link className='recommended-link' to={`/all/${1}`}>
                             <div className="new-recommended-button-wrapper">

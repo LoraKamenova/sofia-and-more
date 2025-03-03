@@ -11,7 +11,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
     background-color: whitesmoke;
 }
 
@@ -23,7 +22,7 @@
 }
 
 .new-card-heading {
-    padding: 5px;
+    margin-bottom: 5px;
     font-size: 20px;
     color: rgb(26, 133, 133);
 }
@@ -40,22 +39,26 @@
     justify-content: center;
     align-items: center;
     align-self: flex-start;
-    margin: 5px 10px;
-    padding: 50px 40px;
+    margin: 0 10px;
+    padding: 50px;
     background-color: whitesmoke;
 }
 
 .new-recommended-heading-wrapper {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .new-recommended-card-image {
     max-width: 100%;
     height: auto;
     overflow: hidden;
+}
+
+.new-recommended-content-wrapper {
+    margin-top: 15px;
 }
 
 .new-recommended-heading {
@@ -101,11 +104,12 @@
     align-items: center;
     text-decoration: none;
     font-weight: bold;
+    color: rgb(26, 133, 133);
 }
 
 .new-recommended-button:hover {
     font-weight: bold;
-    color: rgb(26, 133, 133);
+    color: black;
 }
 
 /* Large devices such as laptops, computers (greater than 1024px) */

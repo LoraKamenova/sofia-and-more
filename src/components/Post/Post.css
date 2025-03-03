@@ -18,46 +18,49 @@
     color: black;
 }
 
+.markdown-div {
+    text-align: center;
+}
+
+
 .markdown h1 {
     margin-bottom: 20px;
     font-style: italic;
     text-align: center;
 }
 
-.markdown p {
-    margin: 5px;
+.markdown-div p {
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
-.markdown img {
+.markdown-div img {
     max-width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-img[alt="portrait"] {
-    max-width: 100%;
-}
-
-img[alt="long"] {
-    max-width: 100%;
-}
-
-
 /* Large devices such as laptops, computers (greater than 1024px) */
 @media only screen and (min-width: 1024px) {
-    .markdown {
+    .markdown { 
         width: 60%;
         padding: 50px;
     }
-
-    img[alt="portrait"] {
-        width: 400px;
-        height: 500px;
+    
+    .float-left {
+        float: left;
+        width: 350px;
+        height: 400px;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
     
-    img[alt="long"] {
-        width: 400px;
-        height: 600px;
+    .float-right {
+        float: right;
+        width: 350px;
+        height: 400px;
+        margin-left: 30px;
+        margin-bottom: 20px;
     }
 }
 
@@ -68,12 +71,12 @@ img[alt="long"] {
         padding: 30px;
     }
 
-    img[alt="portrait"] {
+    .portrait {
         width: 300px;
         height: 350px;
     }
     
-    img[alt="long"] {
+    .long {
         width: 300px;
         height: 400px;
     }
@@ -86,12 +89,13 @@ img[alt="long"] {
         padding: 30px;
     }
 
-    img[alt="portrait"] {
+    .portrait {
         width: 300px;
         height: 350px;
+        margin: 0 auto;
     }
     
-    img[alt="long"] {
+    .long {
         width: 300px;
         height: 400px;
     }
