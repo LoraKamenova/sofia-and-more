@@ -14,7 +14,7 @@ const AllCard = (props) => {
                     <h3 className="all-card-title">{props.title}</h3>
                 </div>
                 <div className="all-card-text-wrapper">
-                    <h3 className="all-card-text">{props.content}</h3>
+                    <h3 className="all-card-text">{props.content.substring(0, 300) + "..."}</h3>
                 </div>
                 <div className="all-card-button-wrapper">
                     <div className="all-card-fake-button">Прочети</div>
