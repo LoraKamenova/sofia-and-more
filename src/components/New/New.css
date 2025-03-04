@@ -1,7 +1,7 @@
 .new-main-section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 30px;
     font-family: 'Trebuchet MS', sans-serif;
 }

@@ -19,9 +19,12 @@
 }
 
 .markdown-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
-
 
 .markdown h1 {
     margin-bottom: 20px;
@@ -40,6 +43,14 @@
     overflow: hidden;
 }
 
+.markdown-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* Large devices such as laptops, computers (greater than 1024px) */
 @media only screen and (min-width: 1024px) {
     .markdown { 
@@ -49,18 +60,37 @@
     
     .float-left {
         float: left;
-        width: 350px;
-        height: 400px;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 400px;
+        max-height: 400px;
         margin-right: 20px;
         margin-bottom: 10px;
     }
     
     .float-right {
         float: right;
-        width: 350px;
-        height: 400px;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 400px;
+        max-height: 400px;
         margin-left: 30px;
         margin-bottom: 20px;
+    }
+
+    .long {
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 500px;
+        max-height: 500px;
+    }
+    
+    .gallery {
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 400px;
+        max-height: 400px;
+        margin: 5px;
     }
 }
 
@@ -74,6 +104,7 @@
     .portrait {
         width: 300px;
         height: 350px;
+        margin: 10px;
     }
     
     .long {
@@ -92,7 +123,6 @@
     .portrait {
         width: 300px;
         height: 350px;
-        margin: 0 auto;
     }
     
     .long {
