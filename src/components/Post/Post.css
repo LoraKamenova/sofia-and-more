@@ -18,7 +18,13 @@
     color: black;
 }
 
-.markdown-div {
+.markdown h1 {
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.markdown-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,18 +32,12 @@
     text-align: center;
 }
 
-.markdown h1 {
-    margin-bottom: 20px;
-    font-style: italic;
-    text-align: center;
-}
-
-.markdown-div p {
+.markdown-content p {
     margin-bottom: 15px;
     text-align: justify;
 }
 
-.markdown-div img {
+.markdown-content img {
     max-width: 100%;
     height: auto;
     overflow: hidden;
@@ -51,6 +51,10 @@
     flex-wrap: wrap;
 }
 
+.float {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 /* Large devices such as laptops, computers (greater than 1024px) */
 @media only screen and (min-width: 1024px) {
     .markdown { 
@@ -58,34 +62,47 @@
         padding: 50px;
     }
     
-    .float-left {
+    .float-left.portrait {
         float: left;
         min-width: 350px;
         max-width: 350px;
-        min-height: 400px;
-        max-height: 400px;
+        min-height: 450px;
+        max-height: 450px;
         margin-right: 20px;
         margin-bottom: 10px;
     }
     
-    .float-right {
+    .float-right.portrait {
         float: right;
         min-width: 350px;
         max-width: 350px;
-        min-height: 400px;
-        max-height: 400px;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        margin-left: 20px;
+        margin-bottom: 10px;
     }
 
-    .long {
+    .float-right.long {
+        float: right;
         min-width: 350px;
         max-width: 350px;
         min-height: 500px;
         max-height: 500px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .float-left.long {
+        float: left;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 500px;
+        max-height: 500px;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
     
-    .gallery {
+    .gallery.portrait {
         min-width: 300px;
         max-width: 300px;
         min-height: 400px;
