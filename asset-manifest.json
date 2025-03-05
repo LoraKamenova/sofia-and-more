@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/sofia-and-more/static/css/main.ba702c6f.css",
-    "main.js": "/sofia-and-more/static/js/main.8e9dff2d.js",
+    "main.css": "/sofia-and-more/static/css/main.3688726d.css",
+    "main.js": "/sofia-and-more/static/js/main.16101df4.js",
     "static/js/488.8e766ea1.chunk.js": "/sofia-and-more/static/js/488.8e766ea1.chunk.js",
-    "static/js/304.e44c900c.chunk.js": "/sofia-and-more/static/js/304.e44c900c.chunk.js",
-    "static/js/381.0ec43c92.chunk.js": "/sofia-and-more/static/js/381.0ec43c92.chunk.js",
+    "static/js/304.b3b8b2f5.chunk.js": "/sofia-and-more/static/js/304.b3b8b2f5.chunk.js",
+    "static/js/381.7b89bc60.chunk.js": "/sofia-and-more/static/js/381.7b89bc60.chunk.js",
     "static/media/background.jpg": "/sofia-and-more/static/media/background.ca9ce8fcfed771c5bed1.jpg",
     "static/media/Pacifico-Regular.ttf": "/sofia-and-more/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/6.jpg": "/sofia-and-more/static/media/6.1c7a32f20536c63007e7.jpg",
@@ -26,15 +26,15 @@
     "static/media/3.jpg": "/sofia-and-more/static/media/3.191fc838f530a34b07c8.jpg",
     "static/media/Tangerine-Regular.ttf": "/sofia-and-more/static/media/Tangerine-Regular.6b04eb83dd71e2762243.ttf",
     "static/media/background1.jpg": "/sofia-and-more/static/media/background1.d4e190fe2cf3a57f6743.jpg",
-    "static/media/1.md": "/sofia-and-more/static/media/1.f55c4b7ac02a22dbe26a.md",
-    "static/media/2.md": "/sofia-and-more/static/media/2.2eaac020c91a3e9e6bea.md",
+    "static/media/1.md": "/sofia-and-more/static/media/1.5c86d2760dda9a1e3802.md",
+    "static/media/2.md": "/sofia-and-more/static/media/2.02ba5479417dfc327850.md",
     "index.html": "/sofia-and-more/index.html",
-    "main.ba702c6f.css.map": "/sofia-and-more/static/css/main.ba702c6f.css.map",
-    "main.8e9dff2d.js.map": "/sofia-and-more/static/js/main.8e9dff2d.js.map",
+    "main.3688726d.css.map": "/sofia-and-more/static/css/main.3688726d.css.map",
+    "main.16101df4.js.map": "/sofia-and-more/static/js/main.16101df4.js.map",
     "488.8e766ea1.chunk.js.map": "/sofia-and-more/static/js/488.8e766ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba702c6f.css",
-    "static/js/main.8e9dff2d.js"
+    "static/css/main.3688726d.css",
+    "static/js/main.16101df4.js"
   ]
 }
