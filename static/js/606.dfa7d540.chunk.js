@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksofia_and_more=self.webpackChunksofia_and_more||[]).push([[606],{606:(e,a,s)=>{e.exports=s.p+"static/media/3.a0b8b8be1f34ddc43724.md"}}]);
