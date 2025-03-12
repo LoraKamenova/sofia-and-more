@@ -1,4 +1,4 @@
-/* .post-section {
+.post-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,30 +6,19 @@
     padding: 10px;
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-} */
-
-.post-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Trebuchet MS', sans-serif;
 }
 
-.post-section {
+.markdown {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    margin: 30px;
-    padding: 50px;
+    margin-top:20px;
     background-color: whitesmoke;
     color: black;
-    /* text-align: justify; */
 }
 
-.post-heading {
+.markdown h1 {
     margin-bottom: 20px;
     font-style: italic;
     text-align: center;
@@ -43,12 +32,12 @@
     text-align: center;
 }
 
-p {
+.markdown-content p {
     margin-bottom: 15px;
     text-align: justify;
 }
 
- img {
+.markdown-content img {
     max-width: 100%;
     height: auto;
     overflow: hidden;
@@ -68,6 +57,10 @@ p {
 }
 /* Large devices such as laptops, computers (greater than 1024px) */
 @media only screen and (min-width: 1024px) {
+    .markdown { 
+        width: 60%;
+        padding: 50px;
+    }
     
     .float-left.portrait {
         float: left;
