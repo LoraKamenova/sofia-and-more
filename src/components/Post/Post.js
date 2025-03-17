@@ -1,6 +1,5 @@
 import { React, Component } from 'react';
 import Sections from './PostTemplates/Sections';
-
 import './Post.css';
 
 class Post extends Component {

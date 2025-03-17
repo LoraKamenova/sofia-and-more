@@ -13,7 +13,7 @@
     align-items: center;
     width: 60%;
     margin: 30px;
-    padding: 50px;
+    padding: 50px 60px;
     background-color: whitesmoke;
     color: black;
     /* text-align: justify; */
@@ -23,28 +23,21 @@
     margin-bottom: 20px;
     font-style: italic;
     text-align: center;
+    font-size: 2em;
 }
 
-.markdown-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-p {
+.post-paragraph {
     margin-bottom: 15px;
     text-align: justify;
 }
 
- img {
+.post-image {
     max-width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-.markdown-gallery {
+.post-gallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
