@@ -18,7 +18,7 @@ class All extends Component {
                     {posts.map((x) => (
                         <Link className='all-cards-link' key={x._id} {...x} to={`/all/${x._id}`}>
                             <AllCard title={x.title}
-                            content={x.content}
+                            content={x.content.substring(0, 200) + "..."}
                             url={x.url}
                             date={x.date}
                             />
