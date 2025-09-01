@@ -1,0 +1,28 @@
+[{
+    "_id": 1,
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1756643679/1/1_zht3w3.jpg",
+    "title": "LZ-VIE",
+    "airline": "Bulgaria Air",
+    "caption": "Airbus A220-100, Bulgaria Air"
+  },
+  {
+    "_id": 2,
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1756664323/1/2_g1dfpm.jpg",
+    "title": "54-33",
+    "airline": "Other",
+    "caption": "Airbus A400M, Germany Air Force (GAF)"
+  },
+  {
+    "_id": 3,
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1756665792/1/3_nqu9vz.jpg",
+    "title": "SP-RZG",
+    "airline": "Ryanair",
+    "caption": "Boeing 737 MAX 8-200, BUZZ (part of Ryanair Holdings Group)"
+  },
+  {
+    "_id": 4,
+    "url": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1756744787/1/4_sqv4hk.jpg",
+    "title": "LZ-AMS",
+    "airline": "Bulgaria Air",
+    "caption": "Airbus A220-300, Bulgaria Air"
+  }]

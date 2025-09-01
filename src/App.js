@@ -9,6 +9,7 @@ import Events from './components/Sofia/Events';
 import Finds from './components/Sofia/Finds';
 import Walks from './components/Sofia/Walks';
 import Collections from './components/Sofia/Collections';
+import Above from './components/Above/Above';
 import Bulgaria from './components/Bulgaria/Bulgaria';
 import World from './components/World/World';
 import All from './components/All/All';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sofia/finds" element={<Finds/>}/>
         <Route path="/sofia/walks" element={<Walks/>}/>
         <Route path="/sofia/collections" element={<Collections/>}/>
+        <Route path="/above" element={<Above/>}/>
         <Route path="/bulgaria" element={<Bulgaria/>}/>
         <Route path="/world" element={<World/>}/>
         <Route path="/all" element={<All/>}/>
